@@ -18,6 +18,6 @@ FILES INCLUDED
     
 WHAT IS THIS APPLICATION?
 --------------------------
-Project Realied by Urshula Saux in March 2021
-App built width HTML & CSS
-Use Semantic HTML & CSS to build this responsive webpage : various breakpoints desktop, tablets, mobile screens
+- Project realised by Urshula Saux in March 2021
+- App built width HTML & CSS
+- Use Semantic HTML & CSS to build this responsive webpage : various breakpoints desktop, tablets, mobile screens
