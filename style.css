@@ -1,0 +1,84 @@
+body {
+    background-color: #ffd6ff;
+    width: 100%; 
+    margin: 0; 
+    color: #4361ee; 
+}
+
+.row {
+    width: 100%; 
+    height: 100vh;
+    display:flex; 
+    flex-direction: wrap; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.col {
+    width: 45%; 
+}
+
+h1 {
+    text-align:center;
+    font-family: 'Shippori Mincho B1', serif;
+    text-transform: uppercase; 
+    letter-spacing: 0.05em;
+    font-size: 3em; 
+}
+
+h2 {
+    font-family: 'Quicksand' , sans-serif; 
+    font-size: 1.5em; 
+}
+
+#selection {
+    width: 100%;
+    display:flex; 
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+}
+
+#selection > div {
+    width: 100%; 
+    display:flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 8px 12px; 
+}
+
+#selection img { 
+    width: 30%; 
+    height: 120px; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#plantCards .card {
+    width: 100%; 
+    border: 2px solid #d9ae94; 
+    border-radius: 5px;
+    display:flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-around;
+    padding: 8px; 
+    margin-bottom: 10px; 
+
+}
+
+#plantCards .card img {
+    width: 25%; 
+    height: 120px;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+#plantCards .card .cardText {
+    width: 71%;
+    text-align: justify;
+    font-family: 'quicksand' , sans-serif;
+    font-size: 0.8em; 
+}
+
+

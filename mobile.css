@@ -1,0 +1,57 @@
+@media screen and (max-width: 575.98px) {
+    body  {
+        background-color: #02c39a; 
+        color: #fdc500; 
+    }
+    
+    .row  {
+        flex-direction: column; 
+        height: 100%; 
+        width: 100%; 
+    }
+
+    .col {
+        width: 90%;
+    }
+
+    #selection {
+        flex-direction: column; 
+    }
+
+    #selection > div {
+        flex-direction: column;
+        justify-content: space-around; 
+        padding: 0px; 
+    }
+
+    #selection img {
+        width: 100%; 
+        height: 250px; 
+        margin-bottom: 25px; 
+    }
+
+    #plantCards .card { 
+        border: 2px solid #ad5389; 
+        width: 100%;
+        flex-direction: column; 
+        margin-bottom: 25px; 
+        margin-left: 0px;
+        padding: 25px 0px; 
+    }
+
+    #plantCards .card img {
+        width: 90%; 
+        height: 250px;
+        object-fit: cover; 
+        border-radius: 5px;
+    }
+
+    #plantCards .card .cardText {
+        width: 90%;
+        text-align: justify;
+        font-family: 'quicksand' , sans-serif;
+        font-size: 0.8em; 
+    }
+
+
+}
